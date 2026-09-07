@@ -1,16 +1,16 @@
-# Documentation links
+# စာရွက်စာတမ်းဆိုင်ရာ လင့်ခ်များ
 
 -   [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/project-chip/connectedhomeip)
--   [Matter SDK documentation page](https://project-chip.github.io/connectedhomeip-doc/index.html)
--   [Matter SDK Coverage Report](https://matter-build-automation.ue.r.appspot.com/)
--   [CI REPL Tests Dashboard](https://project-chip.github.io/connectedhomeip/allure-report/ci_tests/)
--   [Nightly Tests Dashboard](https://project-chip.github.io/connectedhomeip/allure-report/nightly/)
+-   [Matter SDK မှတ်တမ်းစာမျက်နှာ](https://project-chip.github.io/connectedhomeip-doc/index.html)
+-   [Matter SDK အကျုံးဝင်မှု အစီရင်ခံစာ (Coverage Report)](https://matter-build-automation.ue.r.appspot.com/)
+-   [CI REPL စမ်းသပ်မှု ဒက်ရှ်ဘုတ် (Dashboard)](https://project-chip.github.io/connectedhomeip/allure-report/ci_tests/)
+-   [Nightly စမ်းသပ်မှု ဒက်ရှ်ဘုတ် (Dashboard)](https://project-chip.github.io/connectedhomeip/allure-report/nightly/)
 
 # Matter
 
 [![Builds](https://github.com/project-chip/connectedhomeip/workflows/Builds/badge.svg)](https://github.com/project-chip/connectedhomeip/actions/workflows/build.yaml)
 
-**Builds**
+**တည်ဆောက်မှုများ (Builds)**
 
 [![Android](https://github.com/project-chip/connectedhomeip/workflows/Android/badge.svg)](https://github.com/project-chip/connectedhomeip/actions/workflows/android.yaml)
 [![Ameba](https://github.com/project-chip/connectedhomeip/workflows/Build%20example%20-%20Ameba/badge.svg)](https://github.com/project-chip/connectedhomeip/actions/workflows/examples-ameba.yaml)
@@ -32,7 +32,7 @@
 [![Telink](https://github.com/project-chip/connectedhomeip/workflows/Build%20example%20-%20Telink/badge.svg)](https://github.com/project-chip/connectedhomeip/actions/workflows/examples-telink.yaml)
 [![Tizen](https://github.com/project-chip/connectedhomeip/workflows/Build%20example%20-%20Tizen/badge.svg)](https://github.com/project-chip/connectedhomeip/actions/workflows/examples-tizen.yaml)
 
-**Tests**
+**စမ်းသပ်မှုများ (Tests)**
 
 [![Tests-Master](https://github.com/project-chip/connectedhomeip/actions/workflows/tests.yaml/badge.svg)](https://github.com/project-chip/connectedhomeip/actions/workflows/tests.yaml)
 [![Tests-LTS](https://github.com/project-chip/connectedhomeip/actions/workflows/tests.yaml/badge.svg?branch=v1.4.2-branch)](https://github.com/project-chip/connectedhomeip/actions/workflows/tests.yaml?query=branch:v1.4.2-branch)
@@ -41,197 +41,122 @@
 [![QEMU](https://github.com/project-chip/connectedhomeip/workflows/QEMU/badge.svg)](https://github.com/project-chip/connectedhomeip/actions/workflows/qemu.yaml)
 [![Nightly Run](https://github.com/project-chip/connectedhomeip/actions/workflows/nightly.yaml/badge.svg?branch=master)](https://github.com/project-chip/connectedhomeip/actions/workflows/nightly.yaml)
 
-**Tools**
+**ကိရိယာများ (Tools)**
 
 [![ZAP Templates](https://github.com/project-chip/connectedhomeip/workflows/ZAP/badge.svg)](https://github.com/project-chip/connectedhomeip/actions/workflows/zap_templates.yaml)
 
-**Documentation**
+**မှတ်တမ်း (Documentation)**
 
 [![Documentation Build](https://github.com/project-chip/connectedhomeip/actions/workflows/docbuild.yaml/badge.svg)](https://github.com/project-chip/connectedhomeip/actions/workflows/docbuild.yaml)
 
-# About
+# အကြောင်း
 
-Matter (formerly Project CHIP) creates more connections between more objects,
-simplifying development for manufacturers and increasing compatibility for
-consumers, guided by the Connectivity Standards Alliance.
+Matter (မူလအမည် Project CHIP) သည် အရာဝတ္ထုများစွာအကြား ဆက်သွယ်မှုများကို ပိုမိုတိုးမြှင့်ပေးပြီး၊ ထုတ်လုပ်သူများအတွက် ဖွံ့ဖြိုးတိုးတက်မှုကို ရိုးရှင်းလွယ်ကူစေကာ၊ Connectivity Standards Alliance ၏ လမ်းညွှန်မှုဖြင့် စားသုံးသူများအတွက် လိုက်လျောညီထွေမှုကို တိုးမြှင့်ပေးပါသည်။
 
-# What is Matter?
+# Matter ဆိုသည်မှာ အဘယ်နည်း။
 
-Matter is a unified, open-source application-layer connectivity standard built
-to enable developers and device manufacturers to connect and build reliable, and
-secure ecosystems and increase compatibility among connected home devices. It is
-built with market-proven technologies using Internet Protocol (IP) and is
-compatible with Thread and Wi-Fi network transports. Matter was developed by a
-Working Group within the Connectivity Standards Alliance (Alliance). This
-Working Group develops and promotes the adoption of the Matter standard, a
-royalty-free connectivity standard to increase compatibility among smart home
-products, with security as a fundamental design tenet. The vision that led major
-industry players to come together to build Matter is that smart connectivity
-should be simple, reliable, and interoperable.
+Matter သည် developer များနှင့် စက်ကိရိယာ ထုတ်လုပ်သူများအား ချိတ်ဆက်နိုင်ပြီး၊ ယုံကြည်စိတ်ချရသော လုံခြုံသည့် ecosystem များကို တည်ဆောက်နိုင်ရန် ဖြစ်စေကာ၊ ချိတ်ဆက်ထားသော အိမ်သုံးစက်ကိရိယာများအကြား လိုက်လျောညီထွေမှုကို တိုးမြှင့်ပေးရန် ရည်ရွယ်တည်ဆောက်ထားသော ညီညွတ်ပြီး open-source ဖြစ်သည့် application-layer ဆက်သွယ်ရေးစံနှုန်း တစ်ခု ဖြစ်ပါသည်။ ၎င်းကို စျေးကွက်တွင် စမ်းသပ်အတည်ပြုပြီးဖြစ်သော နည်းပညာများကို Internet Protocol (IP) ဖြင့် တည်ဆောက်ထားပြီး Thread နှင့် Wi-Fi ကွန်ရက် transport များနှင့် လိုက်ဖက်ညီပါသည်။ Matter ကို Connectivity Standards Alliance (Alliance) အတွင်းရှိ Working Group တစ်ခုက ဖွံ့ဖြိုးတိုးတက်အောင် ဆောင်ရွက်ခဲ့ပါသည်။ ဤ Working Group သည် စမတ်အိမ်သုံးထုတ်ကုန်များအကြား လိုက်လျောညီထွေမှုကို တိုးမြှင့်ရန် ရည်ရွယ်၍ လုံခြုံရေးကို အခြေခံ ဒီဇိုင်းမူများအဖြစ် ထားရှိကာ၊ ကုန်ကျစရိတ် (royalty) မလိုအပ်သည့် ဆက်သွယ်ရေးစံနှုန်းဖြစ်သော Matter စံနှုန်းကို ဖွံ့ဖြိုးတိုးတက်စေရန်နှင့် အသုံးချမှု ပိုမိုများပြားလာစေရန် မြှင့်တင်ပေးပါသည်။ စက်မှုလုပ်ငန်း အဓိကကစားသမားများအား Matter ကို အတူတကွ တည်ဆောက်လာစေသည့် ရူပါရုံမှာ စမတ်ချိတ်ဆက်မှုသည် ရိုးရှင်းလွယ်ကူပြီး ယုံကြည်စိတ်ချရကာ အပြန်အလှန် လုပ်ဆောင်နိုင်သင့်သည် ဟူသော ခံယူချက် ဖြစ်ပါသည်။
 
-Matter simplifies development for manufacturers and increases compatibility for
-consumers.
+Matter သည် ထုတ်လုပ်သူများအတွက် ဖွံ့ဖြိုးတိုးတက်မှုကို ရိုးရှင်းလွယ်ကူစေပြီး စားသုံးသူများအတွက် လိုက်လျောညီထွေမှုကို တိုးမြှင့်ပေးပါသည်။
 
-The standard was built around a shared belief that smart home devices should be
-secure, reliable, and seamless to use. By building upon Internet Protocol (IP),
-Matter enables communication across smart home devices, mobile apps, and cloud
-services and defines a specific set of IP-based networking technologies for
-device certification.
+ဤစံနှုန်းကို စမတ်အိမ်သုံး စက်ကိရိယာများသည် လုံခြုံပြီး ယုံကြည်စိတ်ချရကာ အသုံးပြုရန် ချောမွေ့သင့်သည် ဟူသော ဘုံခံယူချက်ကို အခြေခံ၍ တည်ဆောက်ထားပါသည်။ Internet Protocol (IP) အပေါ် အခြေခံတည်ဆောက်ခြင်းဖြင့် Matter သည် စမတ်အိမ်သုံး စက်ကိရိယာများ၊ မိုဘိုင်း app များနှင့် cloud ဝန်ဆောင်မှုများအကြား ဆက်သွယ်နိုင်စေပြီး စက်ကိရိယာ အသိအမှတ်ပြုခြင်းအတွက် သီးခြား IP-အခြေခံ ကွန်ရက်နည်းပညာအစုအဝေးကို သတ်မှတ်ပေးပါသည်။
 
-The Matter specification details everything necessary to implement a Matter
-application and transport layer stack. It is intended to be used by implementers
-as a complete specification.
+Matter သတ်မှတ်ချက် (specification) သည် Matter application နှင့် transport layer stack တစ်ခုကို အကောင်အထည်ဖော်ရန် လိုအပ်သည့် အသေးစိတ်အချက်အလက် အားလုံးကို ဖော်ပြထားပါသည်။ ၎င်းကို အကောင်အထည်ဖော်သူများ (implementers) အနေဖြင့် ပြည့်စုံသော specification တစ်ခုအဖြစ် အသုံးပြုနိုင်ရန် ရည်ရွယ်ထားပါသည်။
 
-The Alliance officially opened the Matter Working Group on January 17, 2020, and
-the specification is
-[available](https://csa-iot.org/developer-resource/specifications-download-request/)
-for adoption now.
+Alliance သည် Matter Working Group ကို 2020 ခုနှစ် ဇန်နဝါရီလ 17 ရက်နေ့တွင် တရားဝင် ဖွင့်လှစ်ခဲ့ပြီး၊ specification ကို ယခုပင် [အသုံးချရန် ရရှိနိုင်](https://csa-iot.org/developer-resource/specifications-download-request/) ပါပြီ။
 
-Visit [buildwithmatter.com](https://buildwithmatter.com) to learn more and read
-the latest news and updates about the project.
+ပရောဂျက်နှင့် ပတ်သက်သည့် နောက်ဆုံးသတင်းများနှင့် အပ်ဒိတ်များကို ပိုမိုသိရှိလိုပါက [buildwithmatter.com](https://buildwithmatter.com) သို့ ဝင်ရောက်ကြည့်ရှုပါ။
 
-# Project Overview
+# စီမံကိန်း ခြုံငုံသုံးသပ်ချက်
 
-## Development Goals
+## ဖွံ့ဖြိုးတိုးတက်ရေး ရည်မှန်းချက်များ
 
-Matter is developed with the following goals and principles in mind:
+Matter ကို အောက်ပါ ရည်မှန်းချက်များနှင့် မူများကို ထည့်သွင်းစဉ်းစား၍ ဖွံ့ဖြိုးတိုးတက်အောင် ဆောင်ရွက်ထားပါသည် -
 
-**Unifying:** Matter is built with and on top of market-tested, existing
-technologies.
+**ပေါင်းစည်းမှု (Unifying):** Matter ကို စျေးကွက်တွင် စမ်းသပ်အတည်ပြုပြီးဖြစ်သော လက်ရှိနည်းပညာများအပေါ် အခြေခံ၍ တည်ဆောက်ထားပါသည်။
 
-**Interoperable:** The specification permits communication between any
-Matter-certified device, subject to users’ permission.
+**အပြန်အလှန် လုပ်ဆောင်နိုင်မှု (Interoperable):** Specification သည် အသုံးပြုသူ၏ ခွင့်ပြုချက်ကို လိုက်နာလျက် Matter-အသိအမှတ်ပြု စက်ကိရိယာမည်သည့်အမျိုးအစားမဆို အချင်းချင်း ဆက်သွယ်ခွင့်ကို ခွင့်ပြုပါသည်။
 
-**Secure:** The specification leverages modern security practices and protocols.
+**လုံခြုံမှု (Secure):** Specification သည် ခေတ်မီ လုံခြုံရေး အလေ့အကျင့်များနှင့် ပရိုတိုကောများကို အသုံးချထားပါသည်။
 
-**User Control:** The end user controls authorization for interaction with
-devices.
+**အသုံးပြုသူ ထိန်းချုပ်မှု (User Control):** နောက်ဆုံးအသုံးပြုသူသည် စက်ကိရိယာများနှင့် အပြန်အလှန်ဆက်သွယ်ခွင့်ကို ထိန်းချုပ်ပါသည်။
 
-**Federated:** No single entity serves as a throttle or a single point of
-failure for root of trust.
+**ဖက်ဒရိတ် (Federated):** ယုံကြည်မှု၏ အခြေခံအမြစ် (root of trust) အတွက် တစ်ဦးတည်းသော အဖွဲ့အစည်းသည် လုပ်ပိုင်ခွင့်ကန့်သတ်သူ (throttle) သို့မဟုတ် တစ်ချက်တည်းနှင့် ပျက်စီးနိုင်သည့် အားနည်းချက် (single point of failure) အဖြစ် မရပ်တည်ပါ။
 
-**Robust:** The set of protocols specifies a complete lifecycle of a device —
-starting with the seamless out-of-box experience, through operational protocols,
-to device and system management specifications required for proper function in
-the presence of change.
+**ကြံ့ခိုင်မှု (Robust):** ပရိုတိုကောအစုအဝေးသည် ချောမွေ့သော ပုံးဖွင့်စတင်အသုံးပြုမှု (out-of-box experience) မှစတင်၍ လည်ပတ်မှုဆိုင်ရာ ပရိုတိုကောများကို ဖြတ်သန်းကာ ပြောင်းလဲမှုများ ရှိနေချိန်တွင် မှန်ကန်စွာ လုပ်ဆောင်နိုင်ရန် လိုအပ်သော စက်ကိရိယာနှင့် စနစ်စီမံခန့်ခွဲမှု သတ်မှတ်ချက်များအထိ၊ စက်ကိရိယာတစ်ခု၏ ပြည့်စုံသော သက်တမ်းကာလ (lifecycle) တစ်ခုလုံးကို သတ်မှတ်ဖော်ပြထားပါသည်။
 
-**Low Overhead:** The protocols are practically implementable on low
-compute-resource devices, such as MCUs.
+**Overhead နည်းခြင်း (Low Overhead):** ပရိုတိုကောများကို MCU များကဲ့သို့ တွက်ချက်မှုအရင်းအမြစ် နည်းသော စက်ကိရိယာများပေါ်တွင်ပင် လက်တွေ့ အကောင်အထည်ဖော်နိုင်ပါသည်။
 
-**Pervasive:** The protocols are broadly deployable and accessible, by
-leveraging IP and being implementable on low-capability devices.
+**ကျယ်ပြန့်စွာ ပျံ့နှံ့မှု (Pervasive):** IP ကို အသုံးချခြင်းနှင့် စွမ်းရည်နိမ့် စက်ကိရိယာများပေါ်တွင်ပါ အကောင်အထည်ဖော်နိုင်ခြင်းတို့ကြောင့် ပရိုတိုကောများသည် ကျယ်ပြန့်စွာ ဖြန့်ကျက်အသုံးချနိုင်ပြီး လက်လှမ်းမီနိုင်ပါသည်။
 
-**Ecosystem-Flexible:** The protocol is flexible enough to accommodate
-deployment in ecosystems with differing policies.
+**Ecosystem အလိုက် ပြောင်းလွယ်ပြင်လွယ်ရှိမှု (Ecosystem-Flexible):** မူဝါဒ မတူညီသော ecosystem များတွင် အသုံးချနိုင်ရန် ပရိုတိုကောသည် လုံလောက်စွာ ပြောင်းလွယ်ပြင်လွယ် ရှိပါသည်။
 
-**Easy to Use:** The protocol provides smooth, cohesive, integrated provisioning
-and out-of-box experience.
+**အသုံးပြုရလွယ်ကူမှု (Easy to Use):** ပရိုတိုကောသည် ချောမွေ့ညီညွတ်ပြီး ပေါင်းစပ်ထားသော provisioning နှင့် out-of-box အတွေ့အကြုံကို ပေးစွမ်းပါသည်။
 
-**Open:** The Project’s design and technical processes are open and transparent
-to the general public, including non-members wherever possible.
+**ပွင့်လင်းမှု (Open):** ပရောဂျက်၏ ဒီဇိုင်းနှင့် နည်းပညာဆိုင်ရာ လုပ်ငန်းစဉ်များသည် ဖြစ်နိုင်သမျှ အဖွဲ့ဝင်မဟုတ်သူများအပါအဝင် အများပြည်သူအတွက် ပွင့်လင်းမြင်သာစွာ ဖော်ပြထားပါသည်။
 
-## Architecture Overview
+## ဗိသုကာ ခြုံငုံသုံးသပ်ချက်
 
-Matter aims to build a universal IPv6-based communication protocol for smart
-home devices. The protocol defines the application layer that will be deployed
-on devices and the different link layers to help maintain interoperability. The
-following diagram illustrates the normal operational mode of the stack:
-![Matter Architecture Overview](docs/images/Matter_Arch_Overview.png)
+Matter သည် စမတ်အိမ်သုံး စက်ကိရိယာများအတွက် အသုံးပြုနိုင်သော အလုံးစုံ IPv6-အခြေခံ ဆက်သွယ်ရေးပရိုတိုကောကို တည်ဆောက်ရန် ရည်မှန်းထားပါသည်။ ဤပရိုတိုကောသည် စက်ကိရိယာများပေါ်တွင် ဖြန့်ကျက်အသုံးပြုမည့် application layer နှင့်၊ အပြန်အလှန် လုပ်ဆောင်နိုင်မှုကို ထိန်းသိမ်းရန် အထောက်အကူပြုသည့် မတူညီသော link layer များကို သတ်မှတ်ဖော်ပြထားပါသည်။ အောက်ဖော်ပြပါ ပုံသည် stack ၏ ပုံမှန် လုပ်ဆောင်မှုပုံစံကို ဖော်ပြထားပါသည် -
+![Matter ဗိသုကာ ခြုံငုံသုံးသပ်ချက်](docs/images/Matter_Arch_Overview.png)
 
-The architecture is divided into layers to help separate the different
-responsibilities and introduce a good level of encapsulation among the various
-pieces of the protocol stack. The vast majority of interactions flow through the
-stack captured in the following Figure:
+ဗိသုကာအား တာဝန်များကို ခွဲခြားသတ်မှတ်ရန်နှင့် ပရိုတိုကော stack ၏ အစိတ်အပိုင်းအမျိုးမျိုးအကြား သင့်လျော်သော encapsulation အဆင့်ကို ဖော်ဆောင်ရန် အလွှာများခွဲခြား ဖွဲ့စည်းထားပါသည်။ အပြန်အလှန်ဆက်သွယ်မှု အများစုသည် အောက်ဖော်ပြပါ ပုံတွင် ဖော်ပြထားသော stack ကို ဖြတ်သန်း၍ စီးဆင်းပါသည် -
 
-![Matter Stack Architecture](docs/images/Matter_Layered_Arch.png)
+![Matter အလွှာအလိုက် ဗိသုကာ](docs/images/Matter_Layered_Arch.png)
 
-1. **Application:** High-order business logic of a device. For example, an
-   application that is focused on lighting might contain logic to handle turning
-   on/off the bulb as well as its color characteristics.
+1. **အက်ပလီကေးရှင်း (Application):** စက်ကိရိယာတစ်ခု၏ အဆင့်မြင့် လုပ်ငန်းယုတ္တိ (business logic) ဖြစ်သည်။ ဥပမာအားဖြင့် မီးအလင်းရေးဆိုင်ရာ application တစ်ခုတွင် မီးလုံး ဖွင့်/ပိတ်ခြင်းနှင့် အရောင်ဆိုင်ရာ လက္ခဏာများကို ကိုင်တွယ်ဆောင်ရွက်ပေးသည့် ယုတ္တိများ ပါဝင်နိုင်ပါသည်။
 
-2) **Data Model:** The data layer corresponds to the data and verb elements that
-   help support the functionality of the application. The Application operates
-   on these data structures when there is an intent to interact with the device.
+2) **ဒေတာမော်ဒယ် (Data Model):** ဒေတာအလွှာသည် application ၏ လုပ်ဆောင်နိုင်စွမ်းကို အထောက်အကူပြုသော ဒေတာနှင့် verb ဒြပ်စင် (element) များနှင့် သက်ဆိုင်ပါသည်။ စက်ကိရိယာနှင့် အပြန်အလှန်ဆက်သွယ်လိုသည့်အခါ application သည် ဤဒေတာဖွဲ့စည်းပုံများပေါ်တွင် လုပ်ဆောင်ပါသည်။
 
-3. **Interaction Model:** The Interaction Model layer defines a set of
-   interactions that can be performed between a client and server device. For
-   example, reading or writing attributes on a server device would correspond to
-   application behavior on the device. These interactions operate on the
-   elements defined at the data model layer.
+3. **အပြန်အလှန်ဆက်သွယ်မှု မော်ဒယ် (Interaction Model):** Interaction Model အလွှာသည် client နှင့် server စက်ကိရိယာအကြား လုပ်ဆောင်နိုင်သည့် interaction အစုအဝေးကို သတ်မှတ်ပေးပါသည်။ ဥပမာအားဖြင့် server စက်ကိရိယာပေါ်ရှိ attribute များကို ဖတ်ခြင်း သို့မဟုတ် ရေးသားခြင်းသည် စက်ကိရိယာပေါ်ရှိ application ၏ အပြုအမူနှင့် သက်ဆိုင်ပါသည်။ ဤ interaction များသည် data model အလွှာတွင် သတ်မှတ်ထားသော ဒြပ်စင်များပေါ်တွင် လုပ်ဆောင်ပါသည်။
 
-4) **Action Framing:** Once an action is constructed using the Interaction
-   Model, it is serialized into a prescribed packed binary format to encode for
-   network transmission.
+4) **အက်ရှင် ဖရိမ်းမင်း (Action Framing):** Interaction Model ကို အသုံးပြု၍ action တစ်ခုကို တည်ဆောက်ပြီးသည်နှင့် ကွန်ရက်ပေါ်တွင် ပေးပို့ရန်အတွက် သတ်မှတ်ထားသော packed binary ပုံစံအဖြစ် serialize ပြုလုပ် ကုဒ်ဝှက်ပါသည်။
 
-5. **Security:** An encoded action frame is then sent down to the Security Layer
-   to encrypt and sign the payload to ensure that data is secured and
-   authenticated by both sender and receiver of a packet.
+5. **လုံခြုံရေး (Security):** ကုဒ်ဝှက်ပြီးသား action frame ကို Security Layer သို့ ပေးပို့ပြီး၊ packet ၏ ပေးပို့သူနှင့် လက်ခံသူ နှစ်ဦးစလုံးအနေဖြင့် ဒေတာလုံခြုံစိတ်ချရမှုနှင့် စစ်မှန်ကြောင်း အတည်ပြုနိုင်ရန် payload ကို encrypt နှင့် sign ပြုလုပ်ပါသည်။
 
-6. **Message Framing & Routing:** With an interaction encrypted and signed, the
-   Message Layer constructs the payload format with required and optional header
-   fields; which specify the message's properties and some routing information.
+6. **မက်ဆေ့ချ် ဖရိမ်းမင်းနှင့် လမ်းကြောင်းရွေးချယ်ခြင်း (Message Framing & Routing):** interaction တစ်ခုကို encrypt နှင့် sign ပြုလုပ်ပြီးသည်နှင့် Message Layer သည် message ၏ ဂုဏ်သတ္တိများနှင့် လမ်းကြောင်းရွေးချယ်ရေးဆိုင်ရာ အချက်အလက် အချို့ကို သတ်မှတ်ပေးသော လိုအပ်သည့် (required) နှင့် ရွေးချယ်နိုင်သည့် (optional) header field များပါဝင်သည့် payload ပုံစံကို တည်ဆောက်ပါသည်။
 
-7) **IP Framing & Transport Management:** After the final payload has been
-   constructed, it is sent to the underlying transport protocol for IP
-   management of the data.
+7) **IP ဖရိမ်းမင်းနှင့် Transport စီမံခန့်ခွဲမှု (IP Framing & Transport Management):** payload နောက်ဆုံးအဆင့် တည်ဆောက်ပြီးသည်နှင့် ဒေတာ၏ IP စီမံခန့်ခွဲမှုအတွက် underlying transport protocol သို့ ပေးပို့ပါသည်။
 
-# Current Status of Matter
+# Matter ၏ လက်ရှိအခြေအနေ
 
-Matter’s design and technical processes are intended to be open and transparent
-to the general public, including to Working Group non-members wherever possible.
-The availability of this GitHub repository and its source code under an Apache
-v2 license is an important and demonstrable step to achieving this commitment.
-Matter endeavors to bring together the best aspects of market-tested
-technologies and redeploy them as a unified and cohesive whole-system solution.
-The overall goal of this approach is to bring the benefits of Matter to
-consumers and manufacturers as quickly as possible. As a result, what you
-observe in this repository is an implementation-first approach to the technical
-specification, vetting integrations in practice. The Matter repository is
-growing and evolving to implement the overall architecture. The repository
-currently contains the security foundations, message framing and dispatch, and
-an implementation of the interaction model and data model. The code examples
-show simple interactions, and are supported on multiple transports -- Wi-Fi and
-Thread -- starting with resource-constrained (i.e., memory, processing) silicon
-platforms to help ensure Matter’s scalability.
+Matter ၏ ဒီဇိုင်းနှင့် နည်းပညာဆိုင်ရာ လုပ်ငန်းစဉ်များသည် ဖြစ်နိုင်သမျှ Working Group အဖွဲ့ဝင်မဟုတ်သူများအပါအဝင် အများပြည်သူအတွက် ပွင့်လင်းမြင်သာစွာ ဖော်ပြရန် ရည်ရွယ်ထားပါသည်။ ဤ GitHub repository နှင့် ၎င်း၏ source code ကို Apache v2 လိုင်စင်အောက်တွင် ရရှိနိုင်ခြင်းသည် ဤကတိကဝတ်ကို အောင်မြင်စွာ ဖြည့်ဆည်းရန် အရေးပါသော၊ သက်သေပြနိုင်သည့် အဆင့်တစ်ခု ဖြစ်ပါသည်။ Matter သည် စျေးကွက်တွင် စမ်းသပ်အတည်ပြုပြီးသော နည်းပညာများ၏ အကောင်းဆုံးအချက်များကို စုစည်း၍ ညီညွတ်ပေါင်းစပ်ထားသော စနစ်တစ်ခုလုံးဆိုင်ရာ ဖြေရှင်းချက်တစ်ခုအဖြစ် ပြန်လည် ဖော်ဆောင်ရန် ကြိုးပမ်းလျက်ရှိပါသည်။ ဤနည်းလမ်း၏ အလုံးစုံ ရည်မှန်းချက်မှာ Matter ၏ အကျိုးကျေးဇူးများကို စားသုံးသူများနှင့် ထုတ်လုပ်သူများထံ တတ်နိုင်သမျှ မြန်ဆန်စွာ ရောက်ရှိစေရန် ဖြစ်ပါသည်။ ထို့ကြောင့် ဤ repository တွင် တွေ့မြင်ရသည်မှာ နည်းပညာ specification များကို လက်တွေ့ ပေါင်းစပ်အသုံးချမှုများ စစ်ဆေးအတည်ပြုသည့် implementation-first ချဉ်းကပ်နည်း ဖြစ်ပါသည်။ Matter repository သည် အလုံးစုံ ဗိသုကာကို အကောင်အထည်ဖော်ရန် ကြီးထွား ဖွံ့ဖြိုးလျက်ရှိပါသည်။ လက်ရှိတွင် repository တွင် လုံခြုံရေး အခြေခံများ၊ message framing နှင့် dispatch၊ ထို့အပြင် interaction model နှင့် data model အကောင်အထည်ဖော်မှုများ ပါဝင်ပါသည်။ ကုဒ်နမူနာများသည် ရိုးရှင်းသော interaction များကို ပြသထားပြီး Matter ၏ scalability ကို သေချာစေရန် အရင်းအမြစ် ကန့်သတ်ချက်ရှိသော (memory၊ processing) silicon platform များမှ စတင်ကာ Wi-Fi နှင့် Thread ဟူသော transport အများအပြားတွင် အသုံးပြုနိုင်ပါသည်။
 
-> **Note:** The applications under `examples/` are reference implementations
-> intended for development and testing. They are not production-ready and are
-> not intended to be shipped as-is in a commercial product.
+> **မှတ်ချက်−** `examples/` အောက်ရှိ application များသည် ဖွံ့ဖြိုးရေးနှင့် စမ်းသပ်မှုအတွက် ရည်ရွယ်သော ကိုးကားရည်ညွှန်း အကောင်အထည်ဖော်မှုများ ဖြစ်ကြပါသည်။ ၎င်းတို့သည် ကုန်ထုတ်အသင့် (production-ready) မဟုတ်သည့်အပြင် စီးပွားရေးထုတ်ကုန်တစ်ခုတွင် ယခုအတိုင်း ထည့်သွင်းအသုံးပြုရန် ရည်ရွယ်ထားခြင်း မရှိပါ။
 
-# How to Contribute
+# မည်သို့ ပါဝင်ကူညီနိုင်သနည်း
 
-We welcome your contributions to Matter. Read our contribution guidelines
-[here](./CONTRIBUTING.md).
+Matter သို့ သင်၏ ပါဝင်ကူညီမှုများကို ကျွန်ုပ်တို့ ကြိုဆိုပါသည်။ ကျွန်ုပ်တို့၏ ပါဝင်ကူညီမှုဆိုင်ရာ လမ်းညွှန်ချက်များကို [ဤနေရာ](./CONTRIBUTING.md) တွင် ဖတ်ရှုနိုင်ပါသည်။
 
-# Building and Developing in Matter
+# Matter တွင် တည်ဆောက်ခြင်းနှင့် ဖွံ့ဖြိုးတိုးတက်ခြင်း
 
-Instructions about how to build Matter can be found [here](./docs/README.md) .
+Matter ကို မည်သို့ တည်ဆောက်ရမည်ဆိုသည့် ညွှန်ကြားချက်များကို [ဤနေရာ](./docs/README.md) တွင် ရှာဖွေတွေ့ရှိနိုင်ပါသည်။
 
-# Directory Structure
+# လမ်းညွှန် ဖွဲ့စည်းပုံ
 
-The Matter repository is structured as follows:
+Matter repository ၏ ဖွဲ့စည်းပုံမှာ အောက်ပါအတိုင်း ဖြစ်ပါသည် -
 
-| File/Folder        | Content                                                                                                                                               |
+| ဖိုင်/ဖိုလ်ဒါ       | အကြောင်းအရာ                                                                                                                                              |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| build              | Build system support content and built output directories                                                                                             |
-| build_overrides    | Build system parameter customization for different platforms                                                                                          |
-| config             | Project configurations                                                                                                                                |
-| credentials        | Development and test credentials                                                                                                                      |
-| docs               | Documentation, including guides. Visit the [Matter SDK documentation page](https://project-chip.github.io/connectedhomeip-doc/index.html) to read it. |
-| examples           | Example firmware applications that demonstrate use of Matter (not production-ready)                                                                   |
-| integrations       | 3rd party integrations                                                                                                                                |
-| scripts            | Scripts needed to work with the Matter repository                                                                                                     |
-| src                | Implementation of Matter                                                                                                                              |
-| third_party        | 3rd party code used by Matter                                                                                                                         |
-| zzz_generated      | ZAP generated template code - Revolving around cluster information                                                                                    |
-| BUILD.gn           | Build file for the GN build system                                                                                                                    |
-| CODE_OF_CONDUCT.md | Code of conduct for Matter and contribution to it                                                                                                     |
-| CONTRIBUTING.md    | Guidelines for contributing to Matter                                                                                                                 |
-| LICENSE            | Matter license file                                                                                                                                   |
-| REVIEWERS.md       | PR reviewers                                                                                                                                          |
-| gn_build.sh        | Build script for specific projects such as Android, EFR32, etc.                                                                                       |
-| README.md          | This file                                                                                                                                             |
+| build              | တည်ဆောက်မှုစနစ် ပံ့ပိုးမှုဆိုင်ရာ အကြောင်းအရာနှင့် တည်ဆောက်ပြီး output directory များ                                                                    |
+| build_overrides    | မတူညီသော platform များအတွက် တည်ဆောက်မှုစနစ် parameter စိတ်ကြိုက်ပြင်ဆင်ချက်များ                                                                          |
+| config             | ပရောဂျက် ဖွဲ့စည်းပုံများ (configurations)                                                                                                                |
+| credentials        | ဖွံ့ဖြိုးရေးနှင့် စမ်းသပ်မှုအတွက် credential များ                                                                                                        |
+| docs               | မှတ်တမ်းများ၊ လမ်းညွှန်များ အပါအဝင်။ ၎င်းကို ဖတ်ရှုရန် [Matter SDK မှတ်တမ်းစာမျက်နှာ](https://project-chip.github.io/connectedhomeip-doc/index.html) သို့ ဝင်ရောက်ကြည့်ရှုပါ။ |
+| examples           | Matter အသုံးပြုပုံကို သရုပ်ဖော်သည့် နမူနာ firmware application များ (ကုန်ထုတ်အသင့် မဟုတ်ပါ)                                                              |
+| integrations       | တတိယပါတီ ပေါင်းစပ်အသုံးချမှုများ (3rd party integrations)                                                                                                |
+| scripts            | Matter repository နှင့် လုပ်ဆောင်ရန် လိုအပ်သော script များ                                                                                               |
+| src                | Matter ၏ အကောင်အထည်ဖော်မှု (implementation)                                                                                                              |
+| third_party        | Matter တွင် အသုံးပြုထားသော တတိယပါတီ ကုဒ်များ                                                                                                             |
+| zzz_generated      | ZAP မှ ထုတ်လုပ်ထားသော template ကုဒ် - cluster အချက်အလက်ဆိုင်ရာ                                                                                            |
+| BUILD.gn           | GN တည်ဆောက်မှုစနစ်အတွက် build ဖိုင်                                                                                                                      |
+| CODE_OF_CONDUCT.md | Matter နှင့် ၎င်းသို့ ပါဝင်ကူညီမှုအတွက် ကျင့်ဝတ်စည်းမျဉ်း                                                                                                |
+| CONTRIBUTING.md    | Matter သို့ ပါဝင်ကူညီရန် လမ်းညွှန်ချက်များ                                                                                                             |
+| LICENSE            | Matter လိုင်စင်ဖိုင်                                                                                                                                    |
+| REVIEWERS.md       | PR စိစစ်သူများ                                                                                                                                          |
+| gn_build.sh        | Android၊ EFR32 စသည့် သီးခြားပရောဂျက်များအတွက် build script                                                                                               |
+| README.md          | ဤဖိုင်                                                                                                                                                  |
 
-# License
+# လိုင်စင်
 
-Matter is released under the [Apache 2.0 license](./LICENSE).
+Matter ကို [Apache 2.0 လိုင်စင်](./LICENSE) အောက်တွင် ထုတ်ပြန်ထားပါသည်။
