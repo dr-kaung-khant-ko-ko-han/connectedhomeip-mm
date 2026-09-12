@@ -1,140 +1,87 @@
-# Project CHIP Open Source Code of Conduct
+# Project CHIP Open Source ကျင့်ဝတ်စည်းမျဉ်း
 
-This Project CHIP Open Source Code of Conduct applies to all those contributing
-to, participating in, or maintaining the Project CHIP open source project,
-including Connectivity Standards Alliance members and non-members.
+ဤ Project CHIP Open Source ကျင့်ဝတ်စည်းမျဉ်းသည် Connectivity Standards Alliance အဖွဲ့ဝင်နှင့် အဖွဲ့ဝင်မဟုတ်သူများအပါအဝင်၊ Project CHIP open source project တွင် ပါဝင်ကူညီသူ၊ ပါဝင်သူ (သို့) ထိန်းသိမ်းသူ အားလုံးအတွက် သက်ရောက်ပါသည်။
 
-# Contributor Covenant Code of Conduct
+# Contributor Covenant ကျင့်ဝတ်စည်းမျဉ်း
 
-## Our Pledge
+## ကျွန်ုပ်တို့၏ ကတိကဝတ်
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, caste, color, religion, or sexual
-identity and orientation.
+ကျွန်ုပ်တို့ အဖွဲ့ဝင်များ၊ ပါဝင်ကူညီသူများနှင့် ခေါင်းဆောင်များအနေဖြင့် အသက်၊ ခန္ဓာကိုယ်အရွယ်အစား၊ မြင်နိုင်သည်ဖြစ်စေ မမြင်နိုင်သည်ဖြစ်စေ မသန်စွမ်းမှု၊ လူမျိုးစု၊ ကျား/မ ဇီဝဗေဒဆိုင်ရာ ဂုဏ်သတ္တိများ၊ ကျား/မ အမှတ်သညာနှင့် ဖော်ပြမှု၊ အတွေ့အကြုံအဆင့်၊ ပညာရေး၊ လူမှုစီးပွားရေး အဆင့်အတန်း၊ နိုင်ငံသား၊ ပုဂ္ဂိုလ်ရေးပုံပန်းသဏ္ဌာန်၊ လူမျိုး၊ ဇာတ်၊ အသားအရောင်၊ ဘာသာရေး၊ သို့မဟုတ် လိင်ပိုင်းဆိုင်ရာ အမှတ်သညာနှင့် တိမ်းညွတ်မှု မည်သို့ပင် ရှိစေကာမူ၊ လူတိုင်းအတွက် ကျွန်ုပ်တို့၏ အသိုင်းအဝိုင်းတွင် ပါဝင်ဆောင်ရွက်ခြင်းကို နှိပ်စက်ညှဉ်းပန်းမှုကင်းသော အတွေ့အကြုံတစ်ခု ဖြစ်စေရန် ကတိပြုပါသည်။
 
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+ပွင့်လင်း၊ ဖိတ်ကြားလိုစိတ်ရှိ၊ ကွဲပြားမှုကို လေးစား၊ လူတိုင်း ပါဝင်နိုင်ပြီး ကျန်းမာသော အသိုင်းအဝိုင်းတစ်ခု ဖြစ်ပေါ်လာစေရန် အထောက်အကူပြုမည့် နည်းလမ်းများဖြင့် ပြုမူဆက်ဆံရန် ကတိပြုပါသည်။
 
-## Our Standards
+## ကျွန်ုပ်တို့၏ စံနှုန်းများ
 
-Examples of behavior that contributes to a positive environment for our
-community include:
+ကျွန်ုပ်တို့ အသိုင်းအဝိုင်းအတွက် အပြုသဘောဆောင်သော ပတ်ဝန်းကျင်ကို ဖြစ်ပေါ်စေသည့် အပြုအမူဆိုင်ရာ ဥပမာများမှာ −
 
--   Demonstrating empathy and kindness toward other people
--   Being respectful of differing opinions, viewpoints, and experiences
--   Giving and gracefully accepting constructive feedback
--   Accepting responsibility and apologizing to those affected by our mistakes,
-    and learning from the experience
--   Focusing on what is best not just for us as individuals, but for the overall
-    community
--   Respecting people's privacy and private product plans
+-   အခြားသူများအပေါ် စာနာမှုနှင့် ကြင်နာမှု ပြသခြင်း
+-   ကွဲပြားသော ထင်မြင်ချက်၊ အမြင်နှင့် အတွေ့အကြုံများကို လေးစားခြင်း
+-   တည်ဆောက်ရေးသည့် feedback များကို ပေးခြင်းနှင့် လေးလေးနက်နက် လက်ခံခြင်း
+-   ကျွန်ုပ်တို့၏ အမှားများကြောင့် ထိခိုက်ခံစားရသူများကို တာဝန်ယူပြီး တောင်းပန်ခြင်း၊ ထို့ပြင် အတွေ့အကြုံမှ သင်ယူခြင်း
+-   ကျွန်ုပ်တို့ ကိုယ်ရေးကိုယ်တာအတွက်သာမက အသိုင်းအဝိုင်းတစ်ခုလုံးအတွက် အကောင်းဆုံးဖြစ်မည့်အရာကို ဦးစားပေးထားခြင်း
+-   လူများ၏ ကိုယ်ရေးကိုယ်တာအချက်အလက်နှင့် ထုတ်ကုန်ဆိုင်ရာ သီးသန့်အစီအစဉ်များကို လေးစားခြင်း
 
-Examples of unacceptable behavior include:
+လက်ခံနိုင်ဖွယ်မရှိသော အပြုအမူဆိုင်ရာ ဥပမာများမှာ −
 
--   The use of sexualized language or imagery, and sexual attention or advances
-    of any kind
--   Trolling, insulting or derogatory comments, and personal or political
-    attacks
--   Public or private harassment
--   Publishing others' private information, such as a physical or email address,
-    without their explicit permission
--   Other conduct which could reasonably be considered inappropriate in a
-    professional setting
--   Disclosure of private information, unreleased products
--   Disclosure of unreleased specification information outside of Connectivity
-    Standards Alliance approved forums
+-   လိင်ပိုင်းဆိုင်ရာ ဖော်ပြချက်ပါသော ဘာသာစကား (သို့) ပုံရိပ်များ အသုံးပြုခြင်း၊ ထို့ပြင် မည်သည့်ပုံစံမျိုးမဆို လိင်ပိုင်းဆိုင်ရာ အာရုံစိုက်မှု (သို့) ချဉ်းကပ်မှု
+-   Trolling ပြုလုပ်ခြင်း၊ စော်ကားခြင်း (သို့) ရှုတ်ချသော မှတ်ချက်များ၊ ထို့ပြင် ကိုယ်ရေးကိုယ်တာ (သို့) နိုင်ငံရေးဆိုင်ရာ တိုက်ခိုက်မှုများ
+-   ပြင်ပ (သို့) သီးသန့် နှိပ်စက်ညှဉ်းပန်းမှု
+-   သူတစ်ပါး၏ ကိုယ်ရေးကိုယ်တာအချက်အလက်များ ဥပမာ လိပ်စာ (သို့) email လိပ်စာစသည်တို့ကို ၎င်းတို့၏ ရှင်းလင်းသော ခွင့်ပြုချက်မရှိဘဲ ထုတ်ဖော်ခြင်း
+-   ပရော်ဖက်ရှင်နယ် ပတ်ဝန်းကျင်တစ်ခုတွင် မသင့်လျော်သည်ဟု သင့်လျော်စွာ ယူဆနိုင်သော အခြားအပြုအမူများ
+-   ကိုယ်ရေးကိုယ်တာ အချက်အလက်များ၊ မထုတ်ဝေရသေးသော ထုတ်ကုန်များကို ထုတ်ဖော်ခြင်း
+-   Connectivity Standards Alliance အတည်ပြုထားသော forum များ၏ ပြင်ပတွင် မထုတ်ဝေရသေးသော specification အချက်အလက်များကို ထုတ်ဖော်ခြင်း
 
-## Enforcement Responsibilities
+## စိုးမိုးကျင့်သုံးမှုဆိုင်ရာ တာဝန်ဝတ္တရားများ
 
-Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive,
-or harmful.
+အသိုင်းအဝိုင်းခေါင်းဆောင်များသည် ကျွန်ုပ်တို့၏ လက်ခံနိုင်ဖွယ် အပြုအမူဆိုင်ရာ စံနှုန်းများကို ရှင်းလင်းဖော်ပြပြီး စိုးမိုးကျင့်သုံးရန် တာဝန်ရှိကြပြီး၊ မသင့်လျော်ကြောင်း၊ ခြိမ်းခြောက်မှုရှိကြောင်း၊ စော်ကားမှုရှိကြောင်း (သို့) ထိခိုက်နစ်နာစေကြောင်း သူတို့ယူဆသော မည်သည့်အပြုအမူအပေါ်တွင်မဆို သင့်လျော်ပြီး တရားမျှတသော ပြင်ဆင်ရေး လုပ်ဆောင်ချက်ကို ဆောင်ရွက်ပါလိမ့်မည်။
 
-Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
-decisions when appropriate.
+အသိုင်းအဝိုင်းခေါင်းဆောင်များသည် ဤ ကျင့်ဝတ်စည်းမျဉ်းနှင့် မကိုက်ညီသော comment၊ commit၊ code၊ wiki တည်းဖြတ်ချက်များ၊ issue များနှင့် အခြားပါဝင်ကူညီမှုများကို ဖယ်ရှားခြင်း၊ တည်းဖြတ်ခြင်း (သို့) ပယ်ချခြင်း ပြုလုပ်ပိုင်ခွင့်နှင့် တာဝန်ရှိပြီး၊ သင့်လျော်သည့်အခါတွင် moderation ဆိုင်ရာ ဆုံးဖြတ်ချက်များ၏ အကြောင်းရင်းများကို ဆက်သွယ်ဖော်ပြပါလိမ့်မည်။
 
-## Scope
+## နယ်ပယ်
 
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+ဤ ကျင့်ဝတ်စည်းမျဉ်းသည် အသိုင်းအဝိုင်းနေရာများ အားလုံးအတွင်း သက်ရောက်ပြီး၊ လူတစ်ဦးသည် အများပြည်သူနေရာများတွင် အသိုင်းအဝိုင်းကို တရားဝင် ကိုယ်စားပြုနေချိန်တွင်လည်း သက်ရောက်ပါသည်။ ကျွန်ုပ်တို့၏ အသိုင်းအဝိုင်းကို ကိုယ်စားပြုခြင်း၏ ဥပမာများတွင် တရားဝင် email လိပ်စာ အသုံးပြုခြင်း၊ တရားဝင် social media account မှတစ်ဆင့် ပို့စ်တင်ခြင်း၊ (သို့) online (သို့) offline ပွဲအခမ်းအနားတစ်ခုတွင် ခန့်အပ်ထားသော ကိုယ်စားလှယ်အဖြစ် ဆောင်ရွက်ခြင်း တို့ ပါဝင်ပါသည်။
 
-## Enforcement
+## စိုးမိုးကျင့်သုံးခြင်း
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-help@csa-iot.org. All submissions will be reviewed and investigated promptly and
-fairly.
+အလွဲသုံးစားလုပ်ခြင်း၊ နှိပ်စက်ညှဉ်းပန်းခြင်း (သို့) အခြားလက်ခံနိုင်ဖွယ်မရှိသော အပြုအမူများကို help@csa-iot.org တွင် စိုးမိုးကျင့်သုံးမှုအတွက် တာဝန်ရှိသော အသိုင်းအဝိုင်းခေါင်းဆောင်များထံ တင်ပြနိုင်ပါသည်။ တင်ပြချက်အားလုံးကို လျင်မြန်ပြီး တရားမျှတစွာ ပြန်လည်သုံးသပ်စစ်ဆေးပါလိမ့်မည်။
 
-All community leaders are obligated to respect the privacy and security of the
-reporter of any incident.
+အသိုင်းအဝိုင်းခေါင်းဆောင် အားလုံးသည် မည်သည့်ဖြစ်ရပ်မဆို တင်ပြသူ၏ ကိုယ်ရေးကိုယ်တာအချက်အလက်နှင့် လုံခြုံရေးကို လေးစားရန် တာဝန်ရှိကြပါသည်။
 
-## Enforcement Guidelines
+## စိုးမိုးကျင့်သုံးမှုဆိုင်ရာ လမ်းညွှန်ချက်များ
 
-Community leaders will follow these Community Impact Guidelines in determining
-the consequences for any action they deem in violation of this Code of Conduct:
+အသိုင်းအဝိုင်းခေါင်းဆောင်များသည် ဤ ကျင့်ဝတ်စည်းမျဉ်းကို ဖောက်ဖျက်သည်ဟု သူတို့ယူဆသော မည်သည့်လုပ်ဆောင်ချက်အတွက်မဆို ဆက်စပ်အကျိုးဆက်များကို ဆုံးဖြတ်ရာတွင် ဤ Community Impact Guidelines များကို လိုက်နာပါလိမ့်မည် −
 
-### 1. Correction
+### ၁။ ပြင်ဆင်ခြင်း
 
-**Community Impact**: Use of inappropriate language or other behavior deemed
-unprofessional or unwelcome in the community.
+**အသိုင်းအဝိုင်းအပေါ် သက်ရောက်မှု**: မသင့်လျော်သော ဘာသာစကား အသုံးပြုခြင်း (သို့) အသိုင်းအဝိုင်းတွင် ပရော်ဖက်ရှင်နယ်မကျ (သို့) ကြိုဆိုမှု မရှိဟု ယူဆရသော အခြားအပြုအမူများ။
 
-**Consequence**: A private, written warning from community leaders, providing
-clarity around the nature of the violation and an explanation of why the
-behavior was inappropriate. A public apology may be requested.
+**အကျိုးဆက်**: အသိုင်းအဝိုင်းခေါင်းဆောင်များထံမှ သီးသန့် စာဖြင့်ရေးသား သတိပေးချက်တစ်ခု ရရှိမည်ဖြစ်ပြီး၊ ဖောက်ဖျက်မှု၏ သဘောသဘာဝကို ရှင်းလင်းစွာဖော်ပြကာ အဆိုပါ အပြုအမူသည် အဘယ်ကြောင့် မသင့်လျော်ကြောင်း ရှင်းပြပေးပါမည်။ အများသူငှာ တောင်းပန်ရန် တောင်းဆိုခံရနိုင်ပါသည်။
 
-### 2. Warning
+### ၂။ သတိပေးချက်
 
-**Community Impact**: A violation through a single incident or series of
-actions.
+**အသိုင်းအဝိုင်းအပေါ် သက်ရောက်မှု**: တစ်ကြိမ်တည်းသော ဖြစ်ရပ် (သို့) ဆက်တိုက်လုပ်ဆောင်ချက်များမှတစ်ဆင့် ဖောက်ဖျက်မှု။
 
-**Consequence**: A warning with consequences for continued behavior. No
-interaction with the people involved, including unsolicited interaction with
-those enforcing the Code of Conduct, for a specified period of time. This
-includes avoiding interactions in community spaces as well as external channels
-like social media. Violating these terms may lead to a temporary or permanent
-ban.
+**အကျိုးဆက်**: ဆက်လက်လုပ်ဆောင်ပါက အကျိုးဆက်ရှိစေမည့် သတိပေးချက်တစ်ခု ရရှိမည်ဖြစ်သည်။ သတ်မှတ်ကာလတစ်ခုအတွင်း ကျင့်ဝတ်စည်းမျဉ်းကို စိုးမိုးကျင့်သုံးနေသူများနှင့် တောင်းဆိုချက်မရှိဘဲ ဆက်သွယ်ခြင်းအပါအဝင် ပါဝင်ပတ်သက်သူများနှင့် ဆက်သွယ်ခြင်း မပြုရပါ။ ၎င်းတွင် အသိုင်းအဝိုင်းနေရာများနှင့် social media ကဲ့သို့သော ပြင်ပ channel များတွင်ပါ ဆက်သွယ်မှုများကို ရှောင်ကြဉ်ခြင်း ပါဝင်ပါသည်။ ဤစည်းကမ်းချက်များကို ဖောက်ဖျက်ပါက ယာယီ (သို့) အမြဲတမ်း ပိတ်ပင်ခြင်းသို့ ရောက်ရှိနိုင်ပါသည်။
 
-### 3. Temporary Ban
+### ၃။ ယာယီ ပိတ်ပင်ခြင်း
 
-**Community Impact**: A serious violation of community standards, including
-sustained inappropriate behavior.
+**အသိုင်းအဝိုင်းအပေါ် သက်ရောက်မှု**: ဆက်တိုက်ဖြစ်ပေါ်နေသော မသင့်လျော်သည့်အပြုအမူများအပါအဝင် အသိုင်းအဝိုင်းစံနှုန်းများကို အပြင်းအထန် ဖောက်ဖျက်ခြင်း။
 
-**Consequence**: A temporary ban from any sort of interaction or public
-communication with the community for a specified period of time. No public or
-private interaction with the people involved, including unsolicited interaction
-with those enforcing the Code of Conduct, is allowed during this period.
-Violating these terms may lead to a permanent ban.
+**အကျိုးဆက်**: သတ်မှတ်ကာလတစ်ခုအတွင်း အသိုင်းအဝိုင်းနှင့် မည်သည့်ပုံစံမျိုးမဆို ဆက်သွယ်ခြင်း (သို့) အများသူငှာ ဆက်သွယ်ဆက်ဆံခြင်းမှ ယာယီပိတ်ပင်ခြင်း ခံရပါမည်။ ဤကာလအတွင်း ကျင့်ဝတ်စည်းမျဉ်းကို စိုးမိုးကျင့်သုံးနေသူများနှင့် တောင်းဆိုချက်မရှိဘဲ ဆက်သွယ်ခြင်းအပါအဝင် ပါဝင်ပတ်သက်သူများနှင့် အများသူငှာဖြစ်စေ သီးသန့်ဖြစ်စေ ဆက်သွယ်ခွင့် မရှိပါ။ ဤစည်းကမ်းချက်များကို ဖောက်ဖျက်ပါက အမြဲတမ်း ပိတ်ပင်ခြင်းသို့ ရောက်ရှိနိုင်ပါသည်။
 
-### 4. Permanent Ban
+### ၄။ အမြဲတမ်း ပိတ်ပင်ခြင်း
 
-**Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior, harassment of an
-individual, or aggression toward or disparagement of classes of individuals.
+**အသိုင်းအဝိုင်းအပေါ် သက်ရောက်မှု**: ဆက်တိုက်ဖြစ်ပေါ်နေသော မသင့်လျော်သည့်အပြုအမူများ၊ တစ်ဦးချင်းအား နှိပ်စက်ညှဉ်းပန်းခြင်း (သို့) လူတန်းစားအုပ်စုများအပေါ် ရန်လိုမှု (သို့) ထိခိုက်စေသော စော်ကားမှုများအပါအဝင် အသိုင်းအဝိုင်းစံနှုန်းများကို ပုံစံတကျ ဖောက်ဖျက်နေမှုကို ပြသခြင်း။
 
-**Consequence**: A permanent ban from any sort of public interaction within the
-community.
+**အကျိုးဆက်**: အသိုင်းအဝိုင်းအတွင်း မည်သည့်ပုံစံမျိုး အများသူငှာ ဆက်သွယ်ဆက်ဆံခြင်းမှမဆို အမြဲတမ်း ပိတ်ပင်ခြင်း ခံရပါမည်။
 
-## Attribution
+## ကျေးဇူးတင်ဖော်ပြချက်
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 2.1, available at
-[https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][v2.1].
+ဤ ကျင့်ဝတ်စည်းမျဉ်းကို [Contributor Covenant][homepage] ဗားရှင်း 2.1 မှ လိုက်ဆောင်ရေးသားထားပြီး၊ [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][v2.1] တွင် ရရှိနိုင်ပါသည်။
 
-Community Impact Guidelines were inspired by [Mozilla's code of conduct
-enforcement ladder][mozilla coc].
+Community Impact Guidelines များကို [Mozilla ၏ code of conduct စိုးမိုးကျင့်သုံးမှု အဆင့်ဆင့်လမ်းညွှန်][mozilla coc] မှ စိတ်ကူးရယူ ရေးသားထားပါသည်။
 
-For answers to common questions about this code of conduct, see the FAQ at
-[https://www.contributor-covenant.org/faq][faq]. Translations are available at
-[https://www.contributor-covenant.org/translations][translations].
+ဤ ကျင့်ဝတ်စည်းမျဉ်းနှင့်ပတ်သက်သော အများသုံးမေးခွန်းများအတွက် အဖြေများကို [https://www.contributor-covenant.org/faq][faq] ရှိ FAQ တွင် ကြည့်ရှုပါ။ ဘာသာပြန်ဆိုချက်များကို [https://www.contributor-covenant.org/translations][translations] တွင် ရရှိနိုင်ပါသည်။
 
 [homepage]: https://www.contributor-covenant.org
 [v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
