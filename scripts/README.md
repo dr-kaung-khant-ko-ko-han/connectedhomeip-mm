@@ -1,8 +1,8 @@
 # Scripts
 
-Herein is a smattering of scripts, mostly bash, that:
+ဤနေရာတွင် ရှိသည်မှာ အများစုမှာ bash ဖြင့် ရေးသားထားသော script အမျိုးမျိုး ဖြစ်ပြီး ၎င်းတို့သည် −
 
--   capture repetitive developer workflow
--   provide glue for integration with CI and IDEs
--   provide tree build facilities (e.g. gen_chip_version.py)
--   replicate tree-wide CI flows for local verification (e.g. helpers/)
+-   ထပ်ခါထပ်ခါ ပြုလုပ်ရသော developer workflow များကို ဖမ်းယူသိမ်းဆည်းပေးသည်
+-   CI နှင့် IDE များနှင့် ပေါင်းစပ်ချိတ်ဆက်ရန် ဆက်စပ်ချက် (glue) အဖြစ် ဆောင်ရွက်ပေးသည်
+-   Tree build လုပ်ငန်းစဉ်အတွက် facility များ ပံ့ပိုးပေးသည် (ဥပမာ gen_chip_version.py)
+-   Local verification အတွက် repository (tree) တစ်ခုလုံးအတိုင်း CI flow များကို ပြန်လည်ပုံတူပြုလုပ်ပေးသည် (ဥပမာ helpers/)
