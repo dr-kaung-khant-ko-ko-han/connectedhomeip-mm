@@ -2,7 +2,7 @@
 
 ### Directory Structure
 
-The CHIP `src` directory is structured as follows:
+CHIP ၏ src directory ကို အောက်ပါအတိုင်း ဖွဲ့စည်းထားပါသည် −
 
 | File / Folder | Contents                                           |
 | ------------- | -------------------------------------------------- |
@@ -25,7 +25,4 @@ The CHIP `src` directory is structured as follows:
 
 ##### Near Field Communication Tag Reading
 
-NFC Tag Reading is disabled by default because a paid Apple developer account is
-required to have it enabled. If you want to enable it and you have a paid Apple
-developer account, go to the CHIPTool iOS target and turn on Near Field
-Communication Tag Reading under the Capabilities tab.
+NFC Tag ဖတ်ခြင်းကို ဖွင့်ရန်အတွက် ငွေပေးချေထားသော Apple developer account လိုအပ်သောကြောင့် ၎င်းကို ပုံသေအားဖြင့် ပိတ်ထားပါသည်။ ၎င်းကို ဖွင့်လိုပြီး ငွေပေးချေထားသော Apple developer account ရှိပါက CHIPTool iOS target သို့ သွားပြီး Capabilities tab အောက်တွင် Near Field Communication Tag Reading ကို ဖွင့်ပါ။
